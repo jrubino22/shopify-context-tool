@@ -1,0 +1,14 @@
+{
+  "name": "shopify-context-tool",
+  "version": "1.0.0",
+  "description": "Exports a full Shopify store snapshot for use as LLM context",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "export": "node index.js export",
+    "export:pretty": "node index.js export --pretty"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5"
+  }
+}
